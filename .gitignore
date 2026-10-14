@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Tests y cachés
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# --- Específico del proyecto ---
+
+# Datos: ignorar el contenido pero conservar el .gitkeep
+data/*
+!data/.gitkeep
+
+# Modelos entrenados
+*.joblib
+*.pkl
+
+# Editor y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secretos
+.env
+.env.*
